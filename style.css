@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.converter {
+    background-color: pink;
+    max-width: 400px;
+    margin: 300px auto;
+    text-align: center;
+    padding: 50px;
+    border: 10px solid #1b1919;
+    border-radius: 250px;
+  }
+  .converter h2{
+    font-size: 28px;
+    font-family: agbalumo;
+    word-spacing: normal;
+  }
+  .converter i{
+    margin-left: 12px;
+    font-size: 45px;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: #1b1919;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .converter button:hover{
+    color: black;
+    background-color: white;
+  }
+  #result {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
